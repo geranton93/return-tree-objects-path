@@ -1,6 +1,6 @@
 {
   "name": "return-tree-objects-path",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility to recursively find paths in a list of objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
