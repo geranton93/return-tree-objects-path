@@ -113,3 +113,6 @@ const categories = [
   },
 ];
 ```
+## Keywords
+
+Return Tree Objects Path, Tree Traversal, Recursive Search, Object Paths, JavaScript, TypeScript, Tree Navigation, Data Structure, Hierarchical Structure, Pathfinding, Nested Objects, JSON, Utility Library, Node.js
