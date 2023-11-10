@@ -64,6 +64,57 @@ Recursively finds paths in a list of objects based on a specified target key and
 
 Returns an array of objects representing the path from the root to the target.
 
+## Sample Usage
+
+The Return Tree Objects Path Library can be useful for building breadcrumbs in a tree structure. Here's an example of how you can use the library to generate breadcrumbs from a hierarchical list of objects:
+
+```javascript
+import { returnTreeObjectsPath } from 'return-tree-objects-path';
+
+// Sample data representing a tree structure
+const categories = [
+  {
+    id: 1,
+    name: 'Home',
+    children: [
+      {
+        id: 2,
+        name: 'Products',
+        children: [
+          {
+            id: 3,
+            name: 'Laptops',
+            children: [
+              {
+                id: 4,
+                name: 'Gaming Laptops',
+                children: [],
+              },
+              {
+                id: 5,
+                name: 'Business Laptops',
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 6,
+            name: 'Smartphones',
+            children: [],
+          },
+        ],
+      },
+      {
+        id: 7,
+        name: 'About Us',
+        children: [],
+      },
+    ],
+  },
+];
+```
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
