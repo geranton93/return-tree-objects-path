@@ -1,6 +1,6 @@
 {
   "name": "return-tree-objects-path",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A utility to recursively find paths in a list of objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,7 +38,8 @@
     "Nested Data",
     "Hierarchy Traversal",
     "Object Structure",
-    "Hierarchical Navigation"
+    "Hierarchical Navigation",
+    "Breadcrumbs"
   ],
   "devDependencies": {
     "@types/jest": "^29.5.8",
