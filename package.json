@@ -1,12 +1,18 @@
 {
   "name": "return-tree-objects-path",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A utility to recursively find paths in a list of objects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
-  "author": "",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Anton Herashchenko",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.8",

@@ -1,4 +1,4 @@
-import { returnTreeObjectsPath } from "..";
+import { returnTreeObjectsPath } from "../src";
 
 interface TestData {
   id: number;
