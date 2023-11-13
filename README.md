@@ -10,7 +10,7 @@ You can install the Return Tree Objects Path Library via npm. Make sure you have
 npm install return-tree-objects-path
 ```
 
-```
+```javascript
 import { returnTreeObjectsPath } from 'return-tree-objects-path';
 
 // Sample usage
@@ -43,7 +43,7 @@ const paths = returnTreeObjectsPath(objects, 'id', 4, 'children');
 console.log(paths);
 ```
 
-```
+```javascript
 [
   { "id": 1, "name": "Parent" },
   { "id": 3, "name": "Child 2" },
@@ -113,3 +113,11 @@ const categories = [
   },
 ];
 ```
+
+## Contributing
+
+We welcome contributions! If you find a bug or have a suggestion, please [open an issue](https://github.com/geranton93/return-tree-objects-path/issues) or [create a pull request](https://github.com/geranton93/return-tree-objects-path/pulls).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

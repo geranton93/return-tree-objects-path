@@ -1,6 +1,6 @@
 {
   "name": "return-tree-objects-path",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A utility to recursively find paths in a list of objects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "url": "https://github.com/geranton93/return-tree-objects-path"
   },
   "author": "Anton Herashchenko",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "Tree",
     "Traversal",
